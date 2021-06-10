@@ -1,3 +1,4 @@
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## E-Commerce Back-End
 
@@ -23,6 +24,12 @@ Routes are created using Express.js and allows the user to perform RESTful CRUD 
 
 ### This repository contains: 
 
+- server.js - This file uses Sequelize to sync models to the database and establishes a connection to Express.js.
+- /models - This folder contains all of the tables and associations created using Sequelize.
+- /routes - This folder contains category, product, and tag routes that perform CRUD operations to the tables.
+- /seeds - This folder contains seed data for all tables.
+- /config / connection.js - This file initializes the connection to Sequelize.
+- /db / schema.sql - This file contains the schema for the MySQL database.
 
 ### Technologies/Languages used: 
 
@@ -33,7 +40,9 @@ Routes are created using Express.js and allows the user to perform RESTful CRUD 
   - Nodemon
   - Dotenv
 
-### Walkthrough Demo
+### Walkthrough Demo :video_camera:
+
+[LINK TO DEMO](https://drive.google.com/file/d/19M-tdL8rBptRbpdvkbAC5qbYLU-tc1SU/view)
 
 
 ### License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
