@@ -50,7 +50,6 @@ router.get('/:id', async (req, res) => { // Finds a single product by its ID and
   }
 });
 
-// create new product
 router.post('/', (req, res) => {
   /* req.body should look like this...
     {
